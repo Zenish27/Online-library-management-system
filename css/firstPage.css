@@ -1,0 +1,141 @@
+
+body{
+    justify-content: center;
+    align-items: center;
+background:url('../image/back1.jpg');
+background-size: 100%;
+}
+h1{
+margin: 30px auto;
+text-transform: uppercase;
+color: white;
+font-size: 45px;
+text-align: center;
+}
+.box{
+opacity:80%;
+padding: 0px;
+border-radius: 10px;
+position: relative;
+height: 450px;
+width: 500px;
+border: 1px  ;
+margin:20px auto;
+background:white;
+}
+.bottom{
+    /* border: 1px solid; */
+    position: relative;
+    margin: 0px;
+}
+
+.form{
+border: 1px solid;
+border-radius: 30px
+background: white;
+border-right: 1px;
+position: relative;
+width:500px;
+height: 450px;
+/* padding: 10px; */
+/* float: left; */
+margin: auto;
+}
+.form h2{
+width: 100%;
+font-size: 30px;
+text-align: center;
+color: #0080bf  ;
+text-transform: uppercase;
+}
+/* .form p{
+    color: black;
+} */
+input , button {
+    /* border: 1px solid; */
+border:none;
+outline: none;
+background: none;
+}
+.input{
+margin:40px auto;
+text-align: center;
+width: 300px;
+display: block;
+}
+.input span{
+font-size: 16px;
+font-weight: 600;
+text-transform: uppercase;
+color: #0096FF;
+font-family: Helvetica;
+}
+.input input{
+display: block;
+width: 100%;
+margin-top: 5px;
+font-size: 20px;
+padding-bottom: 5px;
+text-align: center;
+border-bottom:1px solid;
+font-family: Helvetica;
+}
+/* .r{
+cursor: pointer;
+border:border-box;
+text-align: center;
+color: black;
+}
+.r input{
+cursor: pointer;
+margin:auto;
+position: relative;
+color: green;
+}
+.r span{
+padding-right: 10px;
+color: grey;
+margin:auto;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: 600;
+font-family: helvetica;
+} */
+button{
+    /* border: 1px solid; */
+display: block;
+margin:0px auto	;
+width: 260px;
+height: 30px;
+border-radius: 30px;
+color: white;
+font-size: 20px;
+cursor:pointer;
+}
+.submit{
+    /* border: 1px solid; */
+margin-top: 0px;
+margin-bottom: 0px;
+text-transform: uppercase;
+font-weight: 600;
+font-family: helvetica;
+background: -webkit-linear-gradient(left,#00acdf,#0080bf);
+}
+.submit:hover{
+background:grey;
+}
+.signUp, .forgotPass{
+cursor: pointer;
+margin-top: 0px;
+text-align:center;
+font-size: 15px;
+font-weight: 600;
+color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.form a:hover{
+color: #0080bf;
+}
